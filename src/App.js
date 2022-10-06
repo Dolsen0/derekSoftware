@@ -3,6 +3,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <div className='computer'>
       <h1>Derek Olsen</h1>
       
       <h2>Skills</h2>
@@ -30,6 +31,7 @@ function App() {
         <a href='https://www.linkedin.com/in/dolsen0/'>Linkedin</a>
       </li>
       </ul>
+      </div>
     </div>
   );
 }
