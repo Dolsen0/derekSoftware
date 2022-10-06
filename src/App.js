@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Derek Olsen</h1>
+      
+      <h2>Skills</h2>
+      
+      <h2>Resume</h2>
+      
+      <h2>Projects</h2>
+      
+      <div id='levelup'>
+        <h3>Level Up</h3>
+        <p>Image of app</p>
+        <p> App to help find time and balance between: mental health, physical health, creative stimuli, and fun   </p>
+      </div>
+
+      <h2> Links </h2>
+
     </div>
   );
 }
